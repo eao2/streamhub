@@ -274,7 +274,6 @@ $color-secondary70:rgba(255, 255, 255, 0.7);
 // }
 
 .c1{
-    position: absolute;
     padding-top: 300px;
     right: 0px;
     width: 100px;
@@ -286,7 +285,6 @@ $color-secondary70:rgba(255, 255, 255, 0.7);
 }
 
 .c2{
-    position: absolute;
     width: 150px;
     height: 200px;
     left: 0px;
@@ -295,7 +293,6 @@ $color-secondary70:rgba(255, 255, 255, 0.7);
 }
 
 .c3{
-    position: absolute;
     width: 400px;
     height: 500px;
     right: 0;
@@ -305,7 +302,6 @@ $color-secondary70:rgba(255, 255, 255, 0.7);
 }
 
 .c4{
-    position: absolute;
     width: 500px;
     height: 500px;
     right: 100px;
@@ -315,7 +311,6 @@ $color-secondary70:rgba(255, 255, 255, 0.7);
 }
 
 .c5{
-    position: absolute;
     right: 70%;
     width: 700px;
     height: 200px;
@@ -325,7 +320,6 @@ $color-secondary70:rgba(255, 255, 255, 0.7);
 }
 
 .c6{
-    position: absolute;
     right: 50%;
     width: 400px;
     height: 200px;
@@ -334,23 +328,12 @@ $color-secondary70:rgba(255, 255, 255, 0.7);
     border-radius: 50%;
 }
 
+.c1, .c2, .c3, .c4, .c5, .c6{
+    position: absolute;
+}
+
 @media (max-width: 768px) {
-    .c1{
-        opacity: .5;
-    }
-    .c2{
-        opacity: .5;
-    }
-    .c3{
-        opacity: .5;
-    }
-    .c4{
-        opacity: .5;
-    }
-    .c5{
-        opacity: .5;
-    }
-    .c6{
+    .c1, .c2, .c3, .c4, .c5, .c6{
         opacity: .5;
     }
 }
@@ -363,6 +346,7 @@ $color-secondary70:rgba(255, 255, 255, 0.7);
     display: flex;
     flex-direction: column;
     gap: .5rem;
+    color: #fff;
 }
 
 .cent{
