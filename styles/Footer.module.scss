@@ -1,0 +1,106 @@
+@import "./colors.module";
+
+
+.footer{
+    margin-top: 4rem;
+    position: relative;
+    z-index: 100;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    background: rgba(0, 3, 13, 0.8);
+    .con{
+        max-width: 1024px;
+        padding: 0 2rem;
+        margin: auto;
+        .s_1{
+            display: flex;
+            justify-content: space-between;
+            @media (max-width: 768px) {
+                flex-direction: column;
+            }
+            .logo{
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                gap: 3rem;
+                padding: 3rem 0 1rem 0;
+                @media (max-width: 480px) {
+                    align-items: center;
+                }
+                img{
+                    width: 200px;
+                }
+                p{
+                    color: $color-accent;
+                    font-weight: 400;
+                }
+            }
+            .links{
+                width: auto;
+                margin-bottom: 1rem;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+                .social{
+                    display: flex;
+                    gap: 1.5rem;
+                    a{
+                        display: flex;
+                        justify-content: center;
+                        svg{
+                            height: 1.5rem;
+                            width: auto;
+                            fill: $color-secondary70;
+                            transition: 300ms;
+                            &:hover{
+                                fill: $color-accent;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        hr{
+            border: 1px solid rgba(255, 255, 255, 0);
+            background-color: rgba(255, 255, 255, 0.1);
+        }
+        .s_2{
+            display: flex;
+            justify-content: space-between;
+            padding: 1rem 0;
+            @media (max-width: 768px) {
+                flex-direction: column;
+                gap: 1rem;
+            }
+            .copyright{
+                font-weight: 400;
+                font-size: 14px;
+                color: $color-secondary70;
+                text-align: center;
+                @media (max-width: 768px) {
+                    order: 2;
+                }
+            }
+            .links{
+                display: flex;  
+                gap: 1rem;
+                @media (max-width: 768px) {
+                    order: 1;
+                    justify-content: center;
+                }
+                a{
+                    text-align: center;
+                    text-decoration: none;
+                    font-weight: 300;
+                    font-size: 14px;
+                    color: $color-secondary70;
+                    transition: 300ms;
+                    &:hover{
+                        color: $color-accent;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+@import "./colors.module";
+
+.nav{
+    width: 100%;
+    z-index: 100;
+    top: 0;
+    position: fixed;
+    background: rgba(0, 3, 13, 0.8);
+    backdrop-filter: blur(3rem);
+    .con{
+        max-width: 1024px;
+        padding: 0 2rem;
+        margin: auto;
+        .wrap{
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            img{
+                width: 150px;
+                height: auto;
+            }
+            .reg{
+                .log_in{
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: $color-secondary;
+                    text-decoration: none;
+                    transition: 300ms;
+                    &:hover{
+                        color: $color-accent;
+                    }
+                }
+                .sign_up{
+                    width: 80px;
+                    height: 2rem;
+                    font-size: 16px;
+                    font-weight: 600;
+                    color: #000;
+                    padding: 6px 12px;
+                    border-radius: 1rem;
+                    background-color: $color-accent;
+                    text-decoration: none;
+                    margin-left: 1.5rem;
+                    transition: 300ms;
+                    &:hover{
+                        background-color: $color-secondary;
+                    }
+                    @media (max-width: 480px) {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+}
