@@ -374,7 +374,8 @@ $color-secondary70:rgba(255, 255, 255, 0.7);
     .error_num{ 
         font-size: 12rem;
         position: relative;
-        text-shadow: -3px 3px 0 $color-accent, 3px 3px 0 red;
+        color: #fff;
+        text-shadow: -2px -2px 0 $color-accent, 2px 2px 0 red;
         @media (max-width: 480px) {
             font-size: 8rem;
     }
@@ -382,6 +383,7 @@ $color-secondary70:rgba(255, 255, 255, 0.7);
 
     .error_txt{
         font-size: 2.5rem;
+        color: #fff;
         text-transform: capitalize;
         @media (max-width: 480px) {
             font-size: 1.5rem;
