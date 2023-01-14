@@ -7,7 +7,7 @@ function How_it_Works() {
   return (
     <div className={style.body}>
     <Head>
-        <title>How it Works</title>
+        <title>404 page not found</title>
     </Head>
       <div className={style.c1} />
     <section className={style.cont}>
