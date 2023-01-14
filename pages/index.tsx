@@ -19,7 +19,7 @@ function Landing() {
         <div className={style.c1} />
           <p className={style.p_1}>- for streamers</p>
           <h1 className={style.H}>The Next<br /> Generation<br /> <a>Donation</a> Method.</h1>
-          <p className={style.descriptionv}>Made by streamers. Made for streamers.</p>
+          <p className={style.description}>Made by streamers. Made for streamers.</p>
         </div>
       </div>
       <div className={style.indi}>
