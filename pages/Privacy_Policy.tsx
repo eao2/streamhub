@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import style from '../styles/Landing.module.scss'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 
 function How_it_Works() {
   return (
@@ -10,7 +8,6 @@ function How_it_Works() {
         <Head>
             <title>Privacy Policy</title>
         </Head>
-      <Navbar/>
       <div className={style.c1} />
     <section className={style.cont}>
         <h1>
@@ -111,7 +108,6 @@ function How_it_Works() {
         </p>
     </section>
     <div className={style.c2} />
-    <Footer/>
   </div>
   );
 }

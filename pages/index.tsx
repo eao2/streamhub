@@ -6,8 +6,6 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SwiperCore, { Autoplay } from 'swiper';
 import "swiper/css";
 import "swiper/css/pagination";
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 
 function Landing() {
   return (
@@ -15,7 +13,6 @@ function Landing() {
       <Head>
         <title>Streamhub mongolia</title>
       </Head>
-      <Navbar/>
     <section className={style.con}>
       <div className={style.T}>
         <div className={style.s1}>
@@ -184,7 +181,6 @@ function Landing() {
     </section>
       <div className={style.c5} />
       <div className={style.c6} />
-    <Footer/>
   </div>
   );
 }

@@ -1,8 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import style from '../styles/Landing.module.scss'
-import Navbar from '../components/Navbar'
-import Footer from '../components/Footer'
 import Router from 'next/router'
 
 function How_it_Works() {
@@ -11,7 +9,6 @@ function How_it_Works() {
     <Head>
         <title>How it Works</title>
     </Head>
-      <Navbar/>
       <div className={style.c1} />
     <section className={style.cont}>
         <center className={style.cent}>
@@ -21,7 +18,6 @@ function How_it_Works() {
         </center>
     </section>
     <div className={style.c2} />
-    <Footer/>
   </div>
   );
 }
