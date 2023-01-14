@@ -7,7 +7,7 @@ function How_it_Works() {
   return (
     <div className={style.body}>
     <Head>
-        <title>How it Works</title>
+        <title>500 server error</title>
     </Head>
       <div className={style.c1} />
     <section className={style.cont}>
